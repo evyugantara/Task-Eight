@@ -1,29 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-table {
-    width: 80%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 12px;
-    text-align: center;
-}
-
-th {
-    background-color: #4CAF50;
+.btn, .btn-edit, .btn-delete {
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 5px;
+    display: inline-block;
     color: white;
+    border-radius: 5px;
+}
+
+.btn { background-color: green; }
+.btn-edit { background-color: orange; }
+.btn-delete { background-color: red; }
+
+form {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 8px 0;
 }
